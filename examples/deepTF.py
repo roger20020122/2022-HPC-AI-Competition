@@ -1,10 +1,11 @@
 import os
 import numpy as np
 import argparse
-from models import *
-from metrics_utils import *
+from DeepLearningBasedDNASequenceFastDecoding.deepLearningBasedDNASequenceFastDecoding.models.leopardTF import *
+from DeepLearningBasedDNASequenceFastDecoding.deepLearningBasedDNASequenceFastDecoding.utils.metricsUtils import *
 import time
 import horovod.tensorflow.keras as hvd
+import tensoflow as tf
 from keras import backend as K
 
 # Initialize Horovod
